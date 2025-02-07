@@ -1,0 +1,132 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+/* ettign style for the page */
+
+body{
+    background-color: #fac9d3;
+}
+
+.container{
+    background-color: rgb(250, 250, 250, 0.7);
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+nav{
+    /* Setting the margin so the navbar don't leave space top, right, and left side */
+    margin: -15px;
+    margin-bottom: auto;
+    background-color: #d5eff9;
+    text-align: center;
+
+}
+
+.navbarMobile{
+    display: none;
+}
+
+
+
+#logo{
+    color: #690AC7;
+   
+    stroke-width: 3px;
+    font-family: "Jacquard 12";
+    font-size: 60px;
+   padding: 50px;
+   outline: 2px;
+   outline-color: black;
+
+
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#title{
+
+    font-family: "Lilita one";
+    text-align: center;
+    font-size: 40px;
+
+
+
+}
+
+p{
+   padding: 20px;
+   /* max-width: 800px; */
+   text-align: left;
+}
+
+/* For Mobile */
+
+@media only screen and (max-width: 896px ) {
+    body{
+        max-width: 100%;
+
+
+    }
+
+    .navbarMobile{
+        display: block;
+        margin: -15px;
+        margin-bottom: auto;
+        background-color: #d5eff9;
+        text-align: center;
+    }
+
+    #logo{
+        font-size: 30px;
+      
+    }
+
+    .navbarDesktop{
+        display: none;
+        
+    }
+
+    .DropdownButton{
+        place-content: right;
+        background-color: #fac9d3;
+        border-style: dotted;
+        border-color:#690AC7;
+        border-radius: 10px;
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    .dropdown{
+        list-style: none;
+        text-align: right;
+        margin-right: 40px;
+    }
+
+    .DropdownItem{
+        display: none;
+    }
+
+    /* .itemsnav{
+        
+    } */
+
+
+
+    
+    
+    
+}
+    
