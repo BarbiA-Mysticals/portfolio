@@ -66,8 +66,18 @@ a:hover{
 
 p{
    padding: 20px;
-   /* max-width: 800px; */
    text-align: left;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#avatarIcon{
+    place-content: center;
+    width: 200px;
 }
 
 /* For Mobile */
