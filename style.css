@@ -33,11 +33,11 @@ nav{
 
 
 .logo{
-    color: #690AC7;
-   
-    stroke-width: 3px;
-    font-family: "Jacquard 12";
-    font-size: 60px;
+   color: #690AC7;
+   text-align: center;
+   stroke-width: 3px;
+   font-family: "Jacquard 12";
+   font-size: 60px;
    padding: 50px;
    outline: 2px;
    outline-color: black;
@@ -89,12 +89,24 @@ p{
 #intro{
     font: "Lilita One";
     text-align: left;
-    font-size: 25px;
-    max-width: 600px;
+    font-size: 38px;
+    max-width: 800px;
+    margin: 40px 40px;
 
 
 }
 
+#projects{
+    background-color: #FE3884;
+    border-radius: 32px;
+    padding: 10px;
+    box-shadow: 10px 5px rebeccapurple;
+    color: white;
+    font-size: 30px;
+
+
+
+}
 
 
 
