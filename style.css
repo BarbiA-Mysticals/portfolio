@@ -172,7 +172,6 @@ p{
 }
 
 .card{
-    box-shadow:10px 5px rgb(105,10,199, 0.5) ;
     max-width: 400px;
     align-items: center;
 
@@ -217,16 +216,17 @@ p{
    
 }
 
-.featuredWorks h3{
+.featuredWorks a{
     margin-left: 10px;
     text-align: center;
 }
 
-.card:hover{
+.featuredWorks a:hover{
     cursor: pointer;
     translate: 3s;
     /* animation: moving 5s infinite; */
     scale: 110%;
+    color: #ff1870;
    
 
     
@@ -237,7 +237,7 @@ p{
 
 .introImage{
     width: 300px;
-    
+
 
 }
 
